@@ -11,7 +11,7 @@ public class JsonReader : MonoBehaviour
     {
         instance = this;
     }
-    public string jsonData;
+    string jsonData;
     public TextAsset textAsset;
     public List<Sprite> sprites;
     private void Start()
@@ -29,11 +29,10 @@ public class JsonReader : MonoBehaviour
         int posY = 0;
         GameObject parent = new GameObject();
         parent.name = "Champions";
-        parent.gameObject.AddComponent<Traits>();
+        parent.gameObject.AddComponent<ChampionsManager>();
         foreach (ChampData champData in champList.targetObjects)
         {
             GameObject go = Instantiate(champTemp,parent.transform);
-            parent.GetComponent<Traits>().champions.Add(go);
             go.GetComponent<ChampionData>().cost = champData.cost;
             go.GetComponent<ChampionData>().champName = champData.name;
             

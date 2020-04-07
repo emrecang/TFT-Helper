@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Traits : MonoBehaviour
+public class ChampionsManager : MonoBehaviour
 {
     public List<string> traits = new List<string>();
     public List<GameObject> champions = new List<GameObject>();
     void Start()
     {
         GetTraitsFromChild();
+        GetChampionsFromChild();
     }
     public void GetTraitsFromChild()
     {
@@ -19,6 +20,13 @@ public class Traits : MonoBehaviour
             CheckTraitExist( transform.GetChild(i).GetComponent<ChampionData>().traitsName2);
             if(transform.GetChild(i).GetComponent<ChampionData>().traitsName3 != "")
                 CheckTraitExist(transform.GetChild(i).GetComponent<ChampionData>().traitsName3);
+        }
+    }
+    public void GetChampionsFromChild()
+    {
+        for (int i = 0; i < transform.childCount; i++)
+        {
+            champions.Add(transform.GetChild(i).gameObject);
         }
     }
     public string CheckTraitExist(string data)
