@@ -29,12 +29,13 @@ public class JsonReader : MonoBehaviour
         int posY = 0;
         GameObject parent = new GameObject();
         parent.name = "Champions";
+        parent.gameObject.AddComponent<Traits>();
         foreach (ChampData champData in champList.targetObjects)
         {
             GameObject go = Instantiate(champTemp,parent.transform);
+            parent.GetComponent<Traits>().champions.Add(go);
             go.GetComponent<ChampionData>().cost = champData.cost;
             go.GetComponent<ChampionData>().champName = champData.name;
-            //go.GetComponent<ChampionData>().champID = champData.championId;
             
             foreach (TraitsData traitsData in champList.targetObjects[i].traits)
             {
@@ -80,6 +81,7 @@ public class JsonReader : MonoBehaviour
         public string name2;
         public string name3;
     }
+
     [System.Serializable]
     public class ChampionList
     {
