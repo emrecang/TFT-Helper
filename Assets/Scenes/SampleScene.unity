@@ -152,7 +152,7 @@ MonoBehaviour:
   champTemp: {fileID: 6211981716444092149, guid: bb2433ee87cc9764c96fc94189aa9041,
     type: 3}
   textAsset: {fileID: 4900000, guid: 72068818cae51854895566f6ba0a8306, type: 3}
-  sprites:
+  championSprites:
   - {fileID: 21300000, guid: b4387723cc77a9448b43051cb3cacd0b, type: 3}
   - {fileID: 21300000, guid: 980bfed4243ca914dadf9c0f8c1594c2, type: 3}
   - {fileID: 21300000, guid: 893c3167b3e444f4abb1d3093ce8d7e8, type: 3}
@@ -204,6 +204,30 @@ MonoBehaviour:
   - {fileID: 21300000, guid: c8cf5a895826c1541a8cdb10048f224c, type: 3}
   - {fileID: 21300000, guid: 52b2a955c6537d347a6e863cdea468d5, type: 3}
   - {fileID: 21300000, guid: 26da222c38df2284abbc467263a67c18, type: 3}
+  traitsSprites:
+  - {fileID: 21300000, guid: 856929f1caeda5e4d89b7388c236bd2f, type: 3}
+  - {fileID: 21300000, guid: 084efddc4a3dd13489ae57ecbf857657, type: 3}
+  - {fileID: 21300000, guid: 9d11f26bc12526c4cb121478ddfb1d74, type: 3}
+  - {fileID: 21300000, guid: 2131934d0263e074896654b78f4f533c, type: 3}
+  - {fileID: 21300000, guid: 24f5fc3200fc4df4d980f7f2cefc6c0d, type: 3}
+  - {fileID: 21300000, guid: eb1118df060af2040973368dfad4b055, type: 3}
+  - {fileID: 21300000, guid: a3ed00e99976cac4e81d894286d3a32c, type: 3}
+  - {fileID: 21300000, guid: e1b556c6a26c3304fb5fcc800c7dd41a, type: 3}
+  - {fileID: 21300000, guid: e368637b82db775489897c50f20144cd, type: 3}
+  - {fileID: 21300000, guid: ba6ef2458b989ab4ea94b7df514e1cc4, type: 3}
+  - {fileID: 21300000, guid: d56c4df66960a654ca04576b65f61898, type: 3}
+  - {fileID: 21300000, guid: 1a8711346094a7644a8e74cfcedff689, type: 3}
+  - {fileID: 21300000, guid: 0daef2bec69fbdd4792ed752945ca725, type: 3}
+  - {fileID: 21300000, guid: ee44f6452b8b98143b5a030f1a8406e3, type: 3}
+  - {fileID: 21300000, guid: 2658fb1040f57de4899925b4c7eaa6e8, type: 3}
+  - {fileID: 21300000, guid: b903b2bc5a1dd4a4daa518c930eb1d71, type: 3}
+  - {fileID: 21300000, guid: ac22e3d978235ec42920fe5d832a7aa4, type: 3}
+  - {fileID: 21300000, guid: 6da7051cea8d345499f917d4b72b4c79, type: 3}
+  - {fileID: 21300000, guid: 5ba73637e0fab3d488740ed9708a1b39, type: 3}
+  - {fileID: 21300000, guid: e79fe5f9a8c7fe8488364a66c69e342d, type: 3}
+  - {fileID: 21300000, guid: d16588b78ecc8fc4fae122676255ed2d, type: 3}
+  - {fileID: 21300000, guid: 7e4b102085ff78b438353afc61559f9f, type: 3}
+  - {fileID: 21300000, guid: 4cd91e3bfd0621449bccc57529b507ab, type: 3}
 --- !u!4 &486343660
 Transform:
   m_ObjectHideFlags: 0
@@ -421,7 +445,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b18fd75847803d44589a3593c4212f02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  composition: []
+  compChampions: []
+  compTraits: []
+  level: 1
 --- !u!4 &2056134473
 Transform:
   m_ObjectHideFlags: 0

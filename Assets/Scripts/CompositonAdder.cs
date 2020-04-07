@@ -6,6 +6,7 @@ public class CompositonAdder : MonoBehaviour
 {
     public List<GameObject> compChampions = new List<GameObject>();
     public List<string> compTraits = new List<string>();
+    public int level = 1;
     private void Update()
     {
         if(Input.GetMouseButtonUp(0))
@@ -26,8 +27,11 @@ public class CompositonAdder : MonoBehaviour
                 return null;
             }
         }
-        compChampions.Add(go);
-        AddTraits(go);
+        if(level > compChampions.Count)
+        {
+            compChampions.Add(go);
+            AddTraits(go);
+        }
 
         return go;
     }
