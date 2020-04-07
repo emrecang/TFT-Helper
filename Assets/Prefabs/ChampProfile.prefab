@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6211981716444092145}
-  - component: {fileID: 6211981716444092148}
   - component: {fileID: -8981417565426798902}
   - component: {fileID: 6798435447925248914}
+  - component: {fileID: 6211981716444092148}
   m_Layer: 0
   m_Name: ChampProfile
   m_TagString: Champion
@@ -33,23 +33,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6211981716444092148
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6211981716444092149}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66bcb829f91bff14db2cc96606481751, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cost: 0
-  champName: 
-  traitsName1: 
-  traitsName2: 
-  traitsName3: 
 --- !u!212 &-8981417565426798902
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -112,3 +95,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.6, y: 0.6, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &6211981716444092148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6211981716444092149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66bcb829f91bff14db2cc96606481751, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cost: 0
+  champName: 
+  traitsName1: 
+  traitsName2: 
+  traitsName3: 

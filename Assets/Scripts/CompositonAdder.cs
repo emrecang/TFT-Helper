@@ -4,9 +4,7 @@ using UnityEngine;
 
 public class CompositonAdder : MonoBehaviour
 {
-    public List<GameObject> compChampions = new List<GameObject>();
-    public List<string> compTraits = new List<string>();
-    public int level = 1;
+    
     private void Update()
     {
         if(Input.GetMouseButtonUp(0))
@@ -20,27 +18,28 @@ public class CompositonAdder : MonoBehaviour
     }
     public GameObject CheckChampionExistOnComp(GameObject go)
     {
-        for (int i = 0; i < compChampions.Count; i++)
+        for (int i = 0; i < PlayerManager.instance.compChampions.Count; i++)
         {
-            if(go == compChampions[i])
+            if(go == PlayerManager.instance.compChampions[i])
             {
                 return null;
             }
         }
-        if(level > compChampions.Count)
+        if(PlayerManager.instance.boardLimit > PlayerManager.instance.compChampions.Count)
         {
-            compChampions.Add(go);
+            PlayerManager.instance.compChampions.Add(go);
             AddTraits(go);
+            UIManager.instance.RefreshBoardLimit();
         }
 
         return go;
     }
     public void AddTraits(GameObject go)
     {
-        compTraits.Add(go.GetComponent<ChampionData>().traitsName1);
-        compTraits.Add(go.GetComponent<ChampionData>().traitsName2);
+        PlayerManager.instance.compTraits.Add(go.GetComponent<ChampionData>().traitsName1);
+        PlayerManager.instance.compTraits.Add(go.GetComponent<ChampionData>().traitsName2);
         if (go.GetComponent<ChampionData>().traitsName3 != "")
-            compTraits.Add(go.GetComponent<ChampionData>().traitsName3);
+            PlayerManager.instance.compTraits.Add(go.GetComponent<ChampionData>().traitsName3);
     }
     public GameObject SendRayGameObject()
     {
