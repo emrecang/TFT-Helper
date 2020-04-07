@@ -69,9 +69,9 @@ public class CompositonAdder : MonoBehaviour
     {
         if (go.layer == 8)
         {
-            DestroyImmediate(go);
             PlayerManager.instance.compChampions.Remove(go);
-            //Fill this
+            DestroyImmediate(go);
+            UIManager.instance.RefreshBoardLimit();
         }
     }
     public GameObject SendRayGameObject()
