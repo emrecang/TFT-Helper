@@ -6,14 +6,17 @@ public class CompositonAdder : MonoBehaviour
 {
     public GameObject buildedComp;
 
-    public Vector3 CompAreaStart;
+    public List<Vector3> CompAreaStart;
 
     private void Awake()
     {
         buildedComp = new GameObject();
         buildedComp.name = "Builded Comp";
-        CompAreaStart = new Vector3(0, -6, 0);
 
+        for (int i = 0; i < 9; i++)
+        {
+            CompAreaStart.Add(new Vector3(i, -6, 0));
+        }
     }
     private void Update()
     {
@@ -21,7 +24,7 @@ public class CompositonAdder : MonoBehaviour
         {
             GameObject selected = SendRayGameObject();
 
-            if (selected != null && CheckChampionExistOnComp(selected))
+            if (selected != null && CheckChampionExistOnComp(selected) && selected.layer == 8)
                 DeleteChampfromComp(selected);
 
 
@@ -30,7 +33,7 @@ public class CompositonAdder : MonoBehaviour
                 AddChampToComp(selected);
 
                 AddToCompArea(selected, CompAreaStart);
-                CompAreaStart.x++;
+
             }
         }
     }
@@ -58,21 +61,30 @@ public class CompositonAdder : MonoBehaviour
             PlayerManager.instance.compTraits.Add(go.GetComponent<ChampionData>().traitsName3);
     }
 
-    public void AddToCompArea(GameObject go, Vector3 Comp_pz)
+    public void AddToCompArea(GameObject go, List<Vector3> Comp_pz)
     {
-        GameObject CompChamp = Instantiate(go, Comp_pz, new Quaternion(0f, 0f, 0f, 0f)) as GameObject;
+        GameObject CompChamp = Instantiate(go, Comp_pz[0], new Quaternion(0f, 0f, 0f, 0f)) as GameObject;
         CompChamp.layer = 8;
         CompChamp.transform.parent = buildedComp.transform;
+
+        Comp_pz.RemoveAt(0);
     }
 
     void DeleteChampfromComp(GameObject go)
     {
-        if (go.layer == 8)
-        {
-            DestroyImmediate(go);
-            PlayerManager.instance.compChampions.Remove(go);
-            //Fill this
-        }
+
+        CompAreaStart.Insert(0, go.transform.position);
+        PlayerManager.instance.compChampions.RemoveAll(x => go);
+
+
+        PlayerManager.instance.compTraits.Remove(go.GetComponent<ChampionData>().traitsName1);
+        PlayerManager.instance.compTraits.Remove(go.GetComponent<ChampionData>().traitsName2);
+        if(go.GetComponent<ChampionData>().traitsName2!=null)
+            PlayerManager.instance.compTraits.Remove(go.GetComponent<ChampionData>().traitsName2);
+
+        UIManager.instance.RefreshBoardLimit();
+        DestroyImmediate(go);
+
     }
     public GameObject SendRayGameObject()
     {
