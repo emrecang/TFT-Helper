@@ -51,7 +51,7 @@ public class JsonReader : MonoBehaviour
             i++;
             spriteIndex++;
             posX++;
-            if (posX > 11)
+            if (posX > 9)
             {
                 posX = 0;
                 posY++;

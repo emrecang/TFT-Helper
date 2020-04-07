@@ -10,8 +10,13 @@ public class UIManager : MonoBehaviour
     {
         instance = this;
     }
-    public GameObject boardLimitPanel;
 
+
+    public GameObject boardLimitPanel;
+    public void Start()
+    {
+        RefreshBoardLimit();
+    }
     public void RefreshBoardLimit()
     {
         var compCount = PlayerManager.instance.compChampions.Count.ToString();
