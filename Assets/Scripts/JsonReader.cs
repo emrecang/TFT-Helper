@@ -19,15 +19,14 @@ public class JsonReader : MonoBehaviour
     {
         CreateChampBase();
     }
+    int i = 0;
+    int spriteIndex = 0;
     public void CreateChampBase()
     {
         jsonData = textAsset.ToString();
 
         ChampionList champList = JsonUtility.FromJson<ChampionList>(jsonData);
-        int i = 0;
-        int spriteIndex = 0;
-        int posX = 0;
-        int posY = 0;
+        
         GameObject parent = new GameObject();
         parent.name = "Champions";
         parent.gameObject.AddComponent<ChampionsManager>();
@@ -45,18 +44,9 @@ public class JsonReader : MonoBehaviour
                     go.GetComponent<ChampionData>().traitsName3 = traitsData.name3;
             }
 
-            go.transform.position = Vector3.right * posX + Vector3.down * posY;
             go.name = champData.name;
-            go.GetComponent<SpriteRenderer>().sprite = championSprites[spriteIndex];
+            go.GetComponent<SpriteRenderer>().sprite = championSprites[i    ];
             i++;
-            spriteIndex++;
-            posX++;
-            if (posX > 9)
-            {
-                posX = 0;
-                posY++;
-            }
-
         }
 
     }
