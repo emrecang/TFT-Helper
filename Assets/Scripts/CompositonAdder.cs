@@ -13,7 +13,7 @@ public class CompositonAdder : MonoBehaviour
         buildedComp = new GameObject();
         buildedComp.name = "Builded Comp";
 
-        for (int i = 0; i < 9; i++)
+        for (int i = 0; i < 12; i++)
         {
             CompAreaStart.Add(new Vector3(i, -6, 0));
         }
@@ -73,16 +73,31 @@ public class CompositonAdder : MonoBehaviour
     void DeleteChampfromComp(GameObject go)
     {
 
-        CompAreaStart.Insert(0, go.transform.position);
-        PlayerManager.instance.compChampions.RemoveAll(x => go);
+        //Set the position for the Position list
+        foreach (var item in CompAreaStart)
+        {
+            if (item.x > go.transform.position.x) { CompAreaStart.Insert(CompAreaStart.IndexOf(item), go.transform.position); break; }
+        }
 
 
+        //Delete from the instance.compChampions List
+        for (int i = 0; i < PlayerManager.instance.compChampions.Count; i++)
+        {        
+            if (PlayerManager.instance.compChampions[i].name+"(Clone)" == go.name)
+                PlayerManager.instance.compChampions.RemoveAt(i);
+        }
+
+
+        //Delete Traits of Champ from the instance.compTraits List
         PlayerManager.instance.compTraits.Remove(go.GetComponent<ChampionData>().traitsName1);
         PlayerManager.instance.compTraits.Remove(go.GetComponent<ChampionData>().traitsName2);
         if(go.GetComponent<ChampionData>().traitsName2!=null)
             PlayerManager.instance.compTraits.Remove(go.GetComponent<ChampionData>().traitsName2);
 
+        //Refresh Limit
         UIManager.instance.RefreshBoardLimit();
+
+        //Delete From the screen
         DestroyImmediate(go);
 
     }
