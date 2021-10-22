@@ -1,0 +1,338 @@
+Tier 1 - Hextech Augments count as having additional except Cuddly, glutton, sister, colossus, transformer
+
+ Academy Heart
+-Your team counts as having 1 additional Academic.
+ Arcanist Heart
+Your team counts as having 1 additional Arcanist.
+ Assassin Heart
+Your team counts as having 1 additional Assassin.
+ Bodyguard Heart
+Your team counts as having 1 additional Bodyguard.
+ Bruiser Heart
+Your team counts as having 1 additional Bruiser.
+ Challenger Heart
+Your team counts as having 1 additional Challenger.
+ Chemtech Heart
+-Your team counts as having 1 additional Chemtech.
+ Clockwork Heart
+-Your team counts as having 1 additional Clockwork.
+ Enchanter Heart
+Your team counts as having 1 additional Enchanter.
+ Enforcer Heart
+Your team counts as having 1 additional Enforcer.
+ Imperial Heart
+Your team counts as having 1 additional Imperial.
+ Innovator Heart
+Your team counts as having 1 additional Innovator.
+ Mutant Heart
+Your team counts as having 1 additional Mutant.
+ Mercenary Heart
+Your team counts as having 1 additional Mercenary.
+ Protector Heart
+Your team counts as having 1 additional Protector.
+ Socialite Heart
+Your team counts as having 1 additional Socialite.
+ Syndicate Heart
+Your team counts as having 1 additional Syndicate.
+ Scholar Heart
+Your team counts as having 1 additional Scholar.
+ Scrap Heart
+Your team counts as having 1 additional Scrap.
+ Sniper Heart
+Your team counts as having 1 additional Sniper.
+ Twinshot Heart
+Your team counts as having 1 additional Twinshot.
+
+
+Tier 3 - Hextech ,Augments count as having 2 additional except Cuddly, glutton, sister, colossus,transformer
+ Arcanist Soul
+Your team counts as having 2 additional Arcanists.
+ Assassin Soul
+Your team counts as having 2 additional Assassins.
+ Bodyguard Soul
+Your team counts as having 2 additional Bodyguards.
+ Bruiser Soul
+Your team counts as having 2 additional Bruisers.
+ Challenger Soul
+Your team counts as having 2 additional Challengers.
+ Chemtech Soul
+Your team counts as having 2 additional Chemtechs.
+ Clockwork Soul
+Your team counts as having 2 additional Clockworks.
+ Enchanter Soul
+Your team counts as having 2 additional Enchanters.
+ Enforcer Soul
+Your team counts as having 2 additional Enforcers.
+ Imperial Soul
+Your team counts as having 2 additional Imperials.
+ Innovator Soul
+Your team counts as having 2 additional Innovators.
+ Mercenary Soul
+Your team counts as having 2 additional Mercenaries.
+ Mutant Soul
+Your team counts as having 2 additional Mutants.
+ Protector Soul
+Your team counts as having 2 additional Protectors.
+ Scholar Soul
+Your team counts as having 2 additional Scholars.
+ Scrap Soul
+Your team counts as having 2 additional Scraps.
+ Sniper Soul
+Your team counts as having 2 additional Snipers.
+ Socialite Soul
+Your team counts as having 2 additional Socialites.
+ Syndicate Soul
+Your team counts as having 2 additional Syndicates.
+ Twinshot Soul
+Your team counts as having 2 additional Twinshots.
+
+
+-----------------GOlD ---------------------
+Tier 1 
+ Calculated Loss
+After losing your combat, gain 2 gold and a free Shop refresh.
+ Dominance
+After winning your combat, gain 1 bonus gold for every 2 surviving units.
+ Hyper Roll
+If you have less than 10 gold at the end of a round, gain 3 gold.
+
+
+
+
+
+Tier 1 - Hextech Augments
+
+ Wise Spending
+Gain 1 experience point when you refresh your Shop.
+ Binary Airdrop
+Your units equipped with 2 items temporarily gain a random completed item at the start of combat.
+ Item Grab Bag I
+Gain 1 random completed item and 1 Reforger.
+ Phony Frontline
+Gain 2 Target Dummies.
+ Pandora's Items
+Gain a random component. At the start of each turn, items on your bench are randomized (excluding Force of Nature, Spatula, and consumables).
+ Ascension
+After 15 seconds of combat, your units deal 100% more damage.
+ Built Different I
+Your units with no Traits active gain 200 Health and 30% Attack Speed.
+ Celestial Blessing I
+Your units heal for 10% of the damage dealt by attacks and abilities. Excess healing is converted to a shield up to 300 Health.
+ Knife's Edge I
+Your units that start combat in the front 2 rows gain 30 Attack Damage.
+ Cybernetic Implants I
+Your units equipped with an item gain 300 Health and 20 Attack Damage.
+ Exiles I
+Your units that start combat with no adajacent allies gain a 40% maximum Health shield for 8 seconds.
+ Featherweights I
+Your 1 and 2 cost units gain 40% movement and Attack Speed.
+ First Aid Kit
+All healing and shielding received by your units is increased by 35%.
+ Makeshift Armor I
+Your units with no items gain 30 Armor and Magic Resist.
+ Scoped Weapons
+Double the hex range of your ranged units, and their attacks cannot miss.
+ Stand United I
+Your units gain 3 Attack Damage and Ability Power per Trait active across your team.
+ Thrill of the Hunt I
+Your units heal 300 Health on kill.
+ Underdogs
+Whenever your team has fewer units alive than your opponent, your units regenerate 15% of their missing Health every second.
+ Weakspot
+Your units' attacks ignore 25% of the target's Armor and reduce healing received by 50% for 10 seconds.
+
+ Runic Shield I
+Arcanists start combat with a shield equal to 400% of their Ability Power.
+
+ Cutthroat
+Assassins Mana Reave the first unit they attack, increasing their maximum Mana by 65% until they cast.
+ Smoke Bomb
+The first time Assassins drop below 60% Health, they briefly enter stealth, becoming untargetable and shedding all negative effects.
+ 
+ Stand Behind Me
+At the start of combat, Bodyguards grant 100% of their Armor bonus to non-Bodyguard allies directly behind them (does not stack).
+ 
+ Shrug It Off
+Bruisers regenerate 2% of their maximum Health each second.
+
+ En Garde
+The first time an enemy is attacked by a Challenger, they are Disarmed for 4 seconds.
+ Chemical Overload I
+Chemtechs explode on death, dealing 50% of their maximum Health as magic damage to enemies within 2 hexes.
+ 
+ All For One
+When an ally dies, they grant the Tyrant 25% of their maximum Health.
+
+ Pirates
+Mercenary units have a 50% chance to drop 1 gold when they kill an enemy.
+
+ Self-Repair
+When the Innovation dies, it will become untargetable and repair itself if an Innovator is still alive.
+ Unstable Evolution
+Mutants randomly gain one of the following when they reach 2 star: 500 Health, 35% Attack Speed, 35 Attack Damage, or 35 Ability Power. These bonuses stack.
+
+ Lifelong Learning
+Scholars that survive combat permanently gain 3 Ability Power.
+
+ Tinker
+Every 1 combat round(s) with Scrap active, gain a Magnetic Remover or Reforger.
+ Sniper's Nest
+Snipers gain +8% damage per round they’ve started combat in the same hex. (Maximum +40%)
+
+ Duet
+Summon 1 additional Socialite Spotlight.
+
+ One For All
+When your Syndicates die, they grant your other Syndicates 20 Attack Damage and Ability Power.
+
+ So Small
+Yordles gain 35% Dodge Chance.
+
+
+--------------------------------------------------------------------------------------------
+Tier 2 - Hextech Augments
+
+ Rich Get Richer
+Gain 10 gold. Your maximum interest is increased to 7.
+ High Roller
+Gain 2 Loaded Dice.
+ Ancient Archives
+Gain 1 Tome of Traits.
+ Clear Mind
+If you have no units on your bench at the end of a round, gain 4 experience points.
+ High End Shopping
+Champions appear in your Shop as if you were 1 level higher.
+ Woodland Charm
+At the start of combat, your highest Health Champion creates a 1500 Health copy of themself (excluding items).
+ March of Progress
+Gain 4 bonus experience points per round. You can no longer use gold to gain experience points.
+ Trade Sector
+Gain a free Shop refresh each round.
+ Sunfire Board
+At the start of combat, burn all enemies for 40% of their maximum HP over 16 seconds and reduce healing received by 50%.
+ Metabolic Accelerator
+Your Tactician moves faster and heals 2 Health at the start of each round.
+ Salvage Bin
+Gain a random completed item. Selling champions breaks apart their full items into components (excluding Force of Nature).
+ Knife's Edge II
+Your units that start combat in the first 2 rows gain 45 Attack Damage.
+ Cybernetic Implants II
+Your units equipped with an item gain 450 Health and 30 Attack Damage.
+ Exiles II
+Your units that start combat with no adajacent allies gain a 60% maximum Health shield for 8 seconds.
+ Featherweights II
+Your 1 and 2 cost units gain 60% movement and Attack Speed.
+ Built Different II
+Your units with no Traits active gain 300 Health and 45% Attack Speed.
+ Stand United II
+Your units gain 4 Attack Damage and Ability Power per Trait active across your team.
+ Titanic Force
+Your units with more than 1200 maximum Health gain Attack Damage equal to 4% of their maximum Health.
+ Makeshift Armor II
+Your units with no items gain 45 Armor and Magic Resist.
+ Celestial Blessing II
+Your units heal for 15% of the damage dealt by attacks and abilities. Excess healing is converted to a shield up to 450 Health.
+ Thrill of the Hunt II
+Your units heal 450 Health on kill.
+ Academy Honors
+Gain an Academy Emblem.
+ Arcane Sigil
+Gain an Arcanist Emblem.
+ Runic Shield II
+Arcanists start combat with a shield equal to 600% of their Ability Power.
+ Spell Blade
+Arcanists' attacks deal bonus magic damage equal to 30% Ability Power on hit.
+ Hidden Blade
+Gain an Assassin Emblem.
+ Safety Vest
+Gain a Bodyguard Emblem.
+ Beef Up
+Gain a Bruiser Emblem.
+ A New Challenger
+Gain a Challenger Emblem.
+ Element X
+Gain a Chemtech Emblem.
+ Chemical Overload II
+Chemtechs explode on death, dealing 75% of their maximum Health as magic damage to enemies within 2 hexes.
+ Instant Injection
+Chemtechs now additionally trigger their bonuses at the start of combat.
+ Tick Tock
+Gain a Clockwork Emblem.
+ Armor Plating
+Colossus become invulnerable for 2 seconds the first time their Health drops to 60% and 30%.
+ Ardent Censer
+Allies healed or shielded by Enchanters gain 15% stacking Attack Speed for the rest of combat (maximum once every 2 seconds).
+ Imperial Banner
+Gain an Imperial Emblem.
+ Dual Rule
+There are now 2 Tyrants.
+ Hired Gun
+Gain a Mercenary Emblem.
+ Gold Reserves
+Mercenaries deal 1% more damage per 1 gold you have. (Maximum +60%)
+ Experiment 13-37
+Gain a Mutant Emblem.
+ Bulwark
+Gain a Protector Emblem.
+ Valedictorian
+Gain a Scholar Emblem.
+ Metal Detector
+Gain a Scrap Emblem.
+ Deadeye
+Gain a Sniper Emblem.
+ Share the Spotlight
+Allies adjacent to a spotlight at the start of combat gain 50% of its bonuses.
+ Shady Business
+Gain a Syndicate Emblem.
+ Sharpshooter
+Twinshot's ranged attacks and abilities can bounce once, dealing 20% less damage.
+
+--------------------------------------------------------------------------------
+Tier 3 - Hextech Augments
+
+ Windfall
+Gain gold based on the number of Augments you currently have. 0 = 20g 1 = 25g 2 = 30g
+ Portable Forge
+Open an Armory and choose 1 of 3 unique Artifacts crafted by Ornn.
+ Item Grab Bag II
+Gain 2 random completed items and 2 Reforgers.
+ Band of Thieves
+Gain 2 Thief's Gloves.
+ New Recruit
+Gain +1 team size.
+ Golden Ticket
+Each time your Shop is refreshed, you have a 35% chance to gain a free refresh.
+ Level Up!
+When you buy experience points, gain an additional 4 experience points. You can now reach level 10.
+ Exiles III
+Your units that start combat with no adajacent allies gain a 80% maximum Health shield for 8 seconds.
+ Featherweights III
+Your 1 and 2 cost units gain 80% movement and Attack Speed.
+ Knife's Edge III
+Your units that start combat in the first 2 rows gain 60 Attack Damage.
+ Cybernetic Implants III
+Your units equipped with an item gain 600 Health and 40 Attack Damage
+ Built Different III
+Your units with no Traits active gain 400 Health and 60% Attack Speed.
+ Stand United III
+Your units gain 6 Attack Damage and Ability Power per Trait active across your team.
+ Makeshift Armor III
+Your units with no items gain 60 Armor and Magic Resist.
+ Celestial Blessing III
+Your units heal for 20% of the damage dealt by attacks and abilities. Excess healing is converted to a shield up to 600 Health.
+ Thrill of the Hunt III
+Your units heal 600 Health on kill.
+ Academy Soul
+Your team counts as having 2 additional Academics.
+ Cram Session
+After casting their first Ability, Academics restore 80% of their maximum Mana.
+ Runic Shield III
+Arcanists start combat with a shield equal to 800% Ability Power.
+ Broken Stopwatch
+8 seconds into combat, all enemies and non-Clockwork units are frozen in time for 4 seconds.
+ Chemical Overload III
+Chemtechs explode on death, dealing 100% of their maximum Health as magic damage to enemies within 2 hexes.
+ Junkyard
+Every 3 combat rounds with the Scrap Trait active, gain a random component.
+ Payday
+After winning your combat, gain 1 bonus gold for each surviving Syndicate.
